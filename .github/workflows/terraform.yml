@@ -44,5 +44,5 @@ jobs:
     - name: Terraform Plan
       run: terraform plan
 
-  terraform_apply:
-    environment: abs
+  # terraform_apply:
+  #   environment: abs
