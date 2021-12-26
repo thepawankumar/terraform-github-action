@@ -29,7 +29,7 @@ resource "azurerm_resource_group" "rg" {
   name     = "demo-rg"
   location = "West Europe"
   tags =  {
-    env = dev
+    env = "dev"
     cost = "TA102AXY"
   }
 }
